@@ -8,28 +8,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
         integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
         crossorigin="anonymous" defer />
-    <link rel="preconnect" href="https://fonts.gstatic.com" defer>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet" defer>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto&display=swap" rel="stylesheet">
     <title>cv</title>
 </head>
 
 <body>
-    <div class="p-20 font-body">
+    <div class="p-20 font-roboto">
         <div class="flex h-48 my-5 justify-center">
             <div class="w-60">
                 <img class="rounded-full w-44" src="./image/avator.jpg" alt="">
             </div>
             <div class="">
-                <h3 class="text-3xl">林煜凱</h3>
-                <p>曾於石化工程業界擔任工程師，約3年經歷，畢業於台大化工系/化工所，因為對寫程式有興趣，在思考職涯時決定朝軟體業發展。</p>
+                <h3 class="text-3xl">林煜凱Albert Lin</h3>
+                <p>I worked as an engineer in petrochemical industry for 3 years and before that, I have a master degree
+                    of chemical engineering in NTU. </p>
+                <p>I started to learn coding and would like to be an software engineer as my career.</p>
 
-                <p>從網路自學和參加坊間課程學習前端技術，也定期關注medium、鐵人賽等技術分享文。</p>
                 <div class="mt-4">
                     <ul>
                         <li><span class="m-3"><i class="fab fa-github text-2xl"></i></span><a
-                                href="https://github.com/albertkingdom">Github</a></li>
-                        <li><span class="m-3"><i class="fas fa-envelope text-2xl"></i></span><a
-                                href="#">albertkingdom@gmail.com</a></li>
+                                href="https://github.com/albertkingdom" class="text-green-600">Github</a></li>
+                        <li><span class="m-3"><i class="fas fa-envelope text-2xl"></i></span><a href="#"
+                                class="text-green-600">albertkingdom@gmail.com</a></li>
 
 
                     </ul>
@@ -39,69 +40,71 @@
         </div>
         <!-- 程式技能 -->
         <section class="my-5">
-            <h1 class="text-3xl">程式相關技能</h1>
+            <h1 class="text-3xl">Programming Skills</h1>
             <hr class="my-3">
 
             <div class="flex">
                 <div class="flex-grow">
-                    <h1 class="text-lg font-bold">前端</h1>
+                    <h1 class="text-lg font-bold">Front-End</h1>
                     <ul>
                         <li>HTML/CSS/SCSS/RWD</li>
                         <li>css-in-js</li>
-                        <li>css框架(Bootstrap)</li>
+                        <li>css framework(Bootstrap)</li>
                         <li>JavaScript (ES6+)</li>
                         <li>jQuery</li>
-                        <li>前端框架React.Js(& Redux)</li>
+                        <li>Frontend Framework, React.Js(& Redux)</li>
                         <li>Unit-Testing(React-testing-library)</li>
                     </ul>
                 </div>
                 <div class="flex-grow">
-                    <h1 class="text-lg font-bold">後端</h1>
+                    <h1 class="text-lg font-bold">Back-End</h1>
                     <ul>
                         <li>Node.js(Express.js)</li>
                         <li>MySQL database</li>
                     </ul>
                 </div>
                 <div class="flex-grow">
-                    <h1 class="text-lg font-bold">其他</h1>
+                    <h1 class="text-lg font-bold">Others</h1>
                     <ul>
-                        <li>Python爬蟲</li>
-                        <li>版本控制Git</li>
-                        <li>套件管理工具NPM/YARN</li>
+                        <li>Python</li>
+                        <li>Git</li>
+                        <li>NPM/YARN</li>
 
                     </ul>
                 </div>
             </div>
         </section>
         <!-- 作品 -->
-        <section>
-            <h1 class="text-3xl">作品</h1>
+        <section class="my-5">
+            <h1 class="text-3xl">Projects</h1>
             <hr class="my-3">
             <!-- Tandem -->
             <div>
-                <h1 class="text-2xl">資策會專題作品-電商平台Tandem</h1>
-                <p>團隊發表專題，個人負責商品頁面、購物車、結帳流程的前端＋後端</p>
+                <h1 class="text-2xl underline">Presentation Project-Ecommerce website:<b><i>TANDEM</i></b></h1>
+                <p>A team project for the final presentation of course, I was responsible for the frontend and backend
+                    of Product pages, Shopping cart and Payment pages.</p>
                 <div>
                     <ul>
                         <li><span class="m-3"><i class="fab fa-github text-2xl"></i></span><a
                                 href="https://github.com/albertkingdom/Tandem_merge_personal_version"
-                                class="text-green-600">前端Github</a></li>
+                                class="text-green-600">FrontEnd Github</a></li>
                         <li><span class="m-3"><i class="fab fa-github text-2xl"></i></span><a
                                 href="https://github.com/albertkingdom/Tandem-nodeJS-personal-version"
-                                class="text-green-600">後端Github</a></li>
+                                class="text-green-600">BackEnd Github</a></li>
 
 
                     </ul>
                 </div>
                 <main class="flex mt-5 flex-wrap">
                     <div class="flex-grow">
-                        <h5>技術：</h5>
+                        <h5>Techniques</h5>
                         <ul class="list-disc">
-                            <li>React前端(商品頁面、購物車、結帳流程)</li>
-                            <li>後端以Node.Js規劃RESTful API，供前端來存取資料庫</li>
-                            <li>Redux管理部分全域狀態</li>
-                            <li>python爬蟲steam遊戲資料</li>
-                            <li>串接TapPAY金流</li>
+                            <li>React.Js for frontend(Product pages, Shopping cart and Payment pages.)</li>
+                            <li>Backend is written in Node.Js to create RESTful API for frontend to read/update/save
+                                data to database，and deal with payment logic with TapPAY service.</li>
+                            <li>utilize Redux for global state</li>
+                            <li>utilize python to crawl game images, introduction from steam</li>
+
                         </ul>
                     </div>
                     <div class="flex flex-grow justify-center">
@@ -113,8 +116,9 @@
             </div>
             <!-- My Taiwan Stock App-->
             <div>
-                <h1 class="text-2xl">My Taiwan Stock App</h1>
-                <p>作為股票投資紀錄，記錄每筆交易的資訊，並畫出近2個月的k線圖，且標註交易時間點，方便日後投資檢討；另外根據每日股價計算報酬率，及圖表化顯示</p>
+                <h1 class="text-2xl underline">My Taiwan Stock App</h1>
+                <p>A stock investment record app, main function is to record investment record and combine 3rd party
+                    module to generate candlestick plot with marks.</p>
                 <div>
                     <ul>
                         <li><span class="m-3"><i class="fas fa-external-link-alt"></i></span><a
@@ -127,14 +131,13 @@
                 </div>
                 <main class="flex mt-5 flex-wrap">
                     <div class="flex-grow">
-                        <h5>技術：</h5>
+                        <h5>Techniques</h5>
                         <ul class="list-disc">
-                            <li>React、Node.js</li>
-                            <li>使用firebase REST API提供登入、儲存個人股票庫存功能 </li>
-                            <li>Chart.Js畫出成本/報酬圖</li>
-                            <li>個股k線圖(anychart套件)</li>
-                            <li>React Router提供page navigation功能</li>
-
+                            <li>Frontend: React、Backend: Node.js</li>
+                            <li>Integrating with firebase REST API for sign-in/ sign-up and storage.</li>
+                            <li>Chart.Js for revenue/cost pie chart</li>
+                            <li>2-month candlestick plot(anychart)</li>
+                            <li>React Router for page navigation</li>
                         </ul>
                     </div>
                     <div class="flex flex-grow justify-center">
@@ -146,8 +149,9 @@
             </div>
             <!-- 新冠肺炎資訊看板 -->
             <div>
-                <h1 class="text-2xl">新冠肺炎資訊看板</h1>
-                <p>更新每日感染人數等資訊，並以圖表顯示各國感染人數變化趨勢</p>
+                <h1 class="text-2xl underline">Covid-19 dashborad</h1>
+                <p>A dashboard to show daily patient case infomation in digit and in chart for global and each country.
+                </p>
                 <div>
                     <ul>
                         <li><span class="m-3"><i class="fas fa-external-link-alt"></i></span><a
@@ -158,11 +162,11 @@
                 </div>
                 <main class="flex mt-5 flex-wrap">
                     <div class="flex-grow">
-                        <h5>技術：</h5>
+                        <h5>Techniques</h5>
                         <ul class="list-disc">
-                            <li>React</li>
-                            <li>Chart.Js視覺化人數資訊 </li>
-                            <li>使用LeafLet套件 + geojson，在地圖上呈現地理位置</li>
+                            <li>Frontend: React</li>
+                            <li>utilize Chart.Js for chart of covid-19 case</li>
+                            <li>utilize LeafLet to show the geo location of countries on map</li>
                         </ul>
                     </div>
                     <div class="flex flex-grow justify-center">
@@ -174,8 +178,9 @@
             </div>
             <!-- PTT八卦版圖文瀏覽/友善閱讀 -->
             <div>
-                <h1 class="text-2xl">PTT八卦版圖文瀏覽/友善閱讀</h1>
-                <p>爬取PTT八卦版，提供以圖瀏覽功能、推文數篩選文章功能</p>
+                <h1 class="text-2xl underline">PTT Gossiping picture browsing</h1>
+                <p>PTT is a taiwan version of reddit. This side project is to crawl ptt articles and images, and provide
+                    filtering function and a new way of browsing by picture.</p>
                 <div>
                     <ul>
                         <li><span class="m-3"><i class="fas fa-external-link-alt"></i></span><a
@@ -186,10 +191,10 @@
                 </div>
                 <main class="flex mt-5 flex-wrap">
                     <div class="flex-grow">
-                        <h5>技術：</h5>
+                        <h5>Techniques</h5>
                         <ul class="list-disc">
                             <li>React</li>
-                            <li>Node.js後端即時爬取PTT文章，規劃RESTful API提供給前端存取</li>
+                            <li>Backend is written in Node.js to crawl PTT articles and create REST api.</li>
                         </ul>
                     </div>
                     <div class="flex flex-grow justify-center">
@@ -201,8 +206,8 @@
             </div>
         </section>
         <!-- timeline -->
-        <section class="">
-            <h1 class="text-3xl">經歷</h1>
+        <section class="my-5">
+            <h1 class="text-3xl">Experience</h1>
             <hr class="my-3">
             <div class="w-3/5 mx-auto relative">
                 <div class=" absolute border-opacity-20 border-gray-700 h-full border" style="left: 1%"></div>
@@ -214,7 +219,8 @@
                     <div class="w-28 text-center">2020</div>
                     <div class="bg-gray-200 rounded-lg shadow-xl w-5/12 px-6 py-4">
                         <h3 class="mb-3 font-bold text-gray-800 text-xl">資策會</h3>
-                        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">學習前端技術、團隊專案開發</p>
+                        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Learn frontend
+                            techniques and participate in project development.</p>
                     </div>
                 </div>
                 <div class="mb-8 flex items-center w-full right-timeline">
@@ -225,15 +231,15 @@
                     <div class="w-28 text-center">2016-2018</div>
 
                     <div class="bg-gray-200 rounded-lg shadow-xl w-5/12 px-6 py-4">
-                        <h3 class="mb-3 font-bold text-gray-800 text-xl">中鼎</h3>
-                        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">擔任工程師</p>
+                        <h3 class="mb-3 font-bold text-gray-800 text-xl">CTCI coporation</h3>
+                        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Engineer</p>
                     </div>
                 </div>
             </div>
         </section>
         <!-- 學歷 -->
-        <section class="relative">
-            <h1 class="text-3xl">學歷</h1>
+        <section class="relative my-5">
+            <h1 class="text-3xl">Education</h1>
             <hr class="my-3">
             <div class="w-3/5 mx-auto relative">
                 <div class="absolute border-opacity-20 border-gray-700 h-full border" style="left: 1%"></div>
@@ -244,8 +250,9 @@
                     </div>
                     <div class="w-28 text-center">2013-2015</div>
                     <div class="bg-gray-200 rounded-lg shadow-xl w-5/12 px-6 py-4">
-                        <h3 class="mb-3 font-bold text-gray-800 text-xl">研究所</h3>
-                        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">台灣大學化工所</p>
+                        <h3 class="mb-3 font-bold text-gray-800 text-xl">Graduate school</h3>
+                        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">NTU chemical
+                            engineering</p>
                     </div>
                 </div>
                 <div class="mb-8 flex items-center w-full right-timeline">
@@ -256,8 +263,9 @@
                     <div class="w-28 text-center">2009-2013</div>
 
                     <div class="bg-gray-200 rounded-lg shadow-xl w-5/12 px-6 py-4">
-                        <h3 class="mb-3 font-bold text-gray-800 text-xl">大學</h3>
-                        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">台灣大學化工系</p>
+                        <h3 class="mb-3 font-bold text-gray-800 text-xl">University</h3>
+                        <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">NTU chemical
+                            engineering</p>
                     </div>
                 </div>
             </div>

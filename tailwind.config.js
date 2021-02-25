@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        body:['Noto Sans TC']
+        nototc:['Noto Sans TC'],
+        roboto:['Roboto']
       }
     },
   },
